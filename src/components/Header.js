@@ -1,8 +1,5 @@
-import React ,{useState} from 'react';
+import React  from 'react';
 import RefreshIcon from '@mui/icons-material/Refresh';
-import MenuIcon from '@mui/icons-material/Menu';
-
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { IconButton } from '@mui/material';
 import AccountMenu from './Account';
 import BasicMenu from './Settings';
@@ -27,7 +24,7 @@ function Header({ search, setSearch }) {
         />   
           </div>
       <div className='profile-container'  >
-        <IconButton className='prfile-icon' style={{fontSize:'40px' , position:'relative' , left:'-110px' , top:'33px'}}>
+        <IconButton className='prfile-icon' style={{ position:'relative' , left:'-123px' , top:'43px'}}>
         <RefreshIcon className='prfile-icon' style={{fontSize:'40px' }}/>
         </IconButton>
         
