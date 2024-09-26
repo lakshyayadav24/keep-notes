@@ -22,8 +22,9 @@ export default function BasicMenu() {
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
+        style={{ position:'relative' , left:'-55px' , top:'-13px'}}
       >
-        <SettingsIcon style={{color:'grey' , fontSize:'40px'  , position:'absolute' , left:'-40px' , top:'-20px'}}/>
+        <SettingsIcon style={{color:'grey' , fontSize:'40px'}}/>
       </Button>
       <Menu
         id="basic-menu"
