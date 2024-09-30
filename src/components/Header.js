@@ -39,4 +39,3 @@ function Header({ search, setSearch }) {
 
 export default Header;
 
-export default Header;
