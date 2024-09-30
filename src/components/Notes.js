@@ -65,12 +65,12 @@ function Notes({ notes, onAddNote, onArchive, onTrash , search}) {
         />
         {isExpanded && (
           <div className="note-actions">
-            <button onClick={handleAddNote} style={{fontSize:'30px'}}>Add</button>
+            <button onClick={handleAddNote} className='Add-button'>Add</button>
           </div>
         )}
       </div>
       <div className='display-notes'>
-        <Box sx={{ width: 1600, minHeight: 253 }}>
+        <Box sx={{ width: 1300, minHeight: 253 }}>
           <Masonry columns={{ xs: 3, sm: 4 }} spacing={2}>
             {notes.filter((note) =>{
               return search.toLowerCase() === '' 
