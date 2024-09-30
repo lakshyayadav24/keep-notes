@@ -12,7 +12,7 @@ function Archive({ archivedNotes, onRestore, onTrash , search}) {
       {archivedNotes.length === 0 ? (
         <p style={{position:'relative' , left:'500px' , fontSize:'50px' , color:'LightGrey'}}><ArchiveOutlinedIcon  style={{ fontSize: '400px' , }}/> <br/>No notes in archive</p>
       ) : (
-        <Box sx={{ width: 800, minHeight: 253 }}>
+        <Box sx={{ width: 1200, minHeight: 253 }}>
         <Masonry columns={4} spacing={2}>
   
         {archivedNotes.filter((note) =>{
