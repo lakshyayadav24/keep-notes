@@ -11,7 +11,7 @@ function Trash({ trashedNotes, onRestore, onDelete ,search}) {
       {trashedNotes.length === 0 ? (
         <p className="empty-trash" style={{position:'relative' , left:'500px' , fontSize:'50px' , color:'LightGrey'}}><DeleteOutlinedIcon style={{ fontSize: '400px' , }} className="trash-icon"/> <br/> No notes in trash</p>
       ) : (
-        <Box sx={{ width: 800, minHeight: 253 }}>
+        <Box sx={{ width: 1200, minHeight: 253 }}>
       <Masonry columns={4} spacing={2}>
         {trashedNotes.filter((note) =>{
               return search.toLowerCase() === '' 
